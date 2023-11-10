@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198931813760",
+    "project_id": "sirus-cd39b",
+    "storage_bucket": "sirus-cd39b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198931813760:android:431354f2dfe2d4b72f9d65",
+        "android_client_info": {
+          "package_name": "com.yeslab.sirus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIt3A-NeDt4heEKz5JC0qway40S1P16eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

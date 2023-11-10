@@ -1,0 +1,141 @@
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/_4sdp"
+    android:id="@+id/cardOne"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/_8sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/giftBg"
+        android:background="@color/white"
+        android:padding="@dimen/_4sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:text="12.21"
+            android:gravity="center"
+            android:padding="@dimen/_3sdp"
+            android:textSize="13sp"
+            android:layout_below="@id/giftLay"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_regular"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoLay"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/giftLay"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/statusText"
+                android:text="Beklemede. Yaklaşık 24 Saat."
+                android:padding="@dimen/_3sdp"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_regular"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/responseText"
+                android:text="Kod burada gözükecektir"
+                android:padding="@dimen/_3sdp"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_regular"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/giftLay"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:id="@+id/image"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Steam Cüzdan Kodu"
+                android:layout_gravity="center"
+                android:id="@+id/title"
+                android:gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_regular"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:src="@drawable/wallet_svgrepo_com__1_"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceText"
+                    android:text="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BuyTicketActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detaylar"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/appOrange"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sipari_zeti"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:id="@+id/title"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black"
+                android:layout_margin="@dimen/_5sdp"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fiyat"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₺10"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/priceText"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r_n"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 Bilet"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/productType"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+
+            </RelativeLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/makePurchaseBtn"
+                android:text="@string/sat_n_al"
+                android:fontFamily="@font/montserrat"
+                android:layout_margin="@dimen/_10sdp"
+                app:backgroundTint="@color/green_800"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Sirüs</string>
+    <string name="ifremi_unuttum">Şifremi Unuttum</string>
+    <string name="ifre">Şifre</string>
+    <string name="email">Email</string>
+    <string name="kaydol">Kaydol</string>
+    <string name="giri_yap">Giriş Yap</string>
+    <string name="kullan_c_ad">Kullanıcı Adı</string>
+    <string name="yar_maya_ba_la">Yarışmaya Başla</string>
+    <string name="bilet_sat_n_al">Bilet Satın Al</string>
+    <string name="kurallar">Kurallar</string>
+    <string name="mevcut_biletler">Mevcut Biletler</string>
+    <string name="bakiye">Bakiye</string>
+    <string name="oturumu_kapat">Oturumu Kapat</string>
+    <string name="d_l_100">Ödül - ₺100</string>
+    <string name="sipari_zeti">Sipariş Özeti</string>
+    <string name="detaylar">Detaylar</string>
+    <string name="sat_n_al">Satın Al</string>
+    <string name="r_n">Ürün</string>
+    <string name="fiyat">Fiyat</string>
+    <string name="l_tfen_nternet_ba_lant_n_z_kontrol_edin">Lütfen İnternet Bağlantınızı Kontrol Edin!</string>
+    <string name="yeniden_dene">Yeniden Dene</string>
+    <string name="statistiklerim">İstatistiklerim</string>
+    <string name="yanl_cevaplar">Yanlış Cevaplar</string>
+    <string name="do_ru_cevaplar">Doğru Cevaplar</string>
+    <string name="liderler">Liderler</string>
+    <string name="liderlik_tablosu">Liderlik Tablosu</string>
+    <string name="mevcut_d_ller">Mağaza</string>
+    <string name="haftal_k_d_l">Haftalık Ödül</string>
+    <string name="g_nder">Gönder</string>
+    <string name="hen_z_bir_s_ralama_olu_mad">Henüz Bir Sıralama Oluşmadı!</string>
+
+    <string name="rules">• Her yeni teste girmek için 1 adet bilet gereklidir. \n• Bilet satın alabilir ya da haftalık ödülle elde edebilirsiniz.
+    \n• Her bir soru için verilen süre 15 saniyedir. \n• Yarışma esnasında test ekranını kapatmanız halinde biletiniz boşa gidecektir.
+    \n• Testi herhangi bir haksız yoldan tamamladığınızın tespit edilmesi halinde ödülünüz geçersiz sayılacaktır.
+    \n• Testte toplam 7 adet soru vardır. \n• Tüm soruları doğru cevaplamanız halinde bakiyeniz 1 artacaktır. \n• Mağazadan bakiyenizin yettiği ödülleri alabilmektesiniz.</string>
+    <string name="testi_ba_latarak_oyun_kurallar_n_kabul_etmi_olursunuz_kurallar_g_rmek_i_in_t_klay_n">Testi başlatarak oyun kurallarını kabul etmiş olursunuz. Kuralları görmek için tıklayın.</string>
+    <string name="d_ller">Ödüller</string>
+    <string name="sipari_ler">Siparişler</string>
+    <string name="gizlilik_s_zle_mesi">Gizlilik Sözleşmesi</string>
+
+    <string name="privacy">
+         Gizlilik Sözleşmesi
+
+Bu gizlilik sözleşmesi , Sirüs uygulamasını kullanırken kullanıcılarımızın kişisel bilgilerinin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır. Lütfen bu sözleşmeyi dikkatlice okuyun.
+
+1. Kişisel Bilgilerin Toplanması
+Sirüs, uygulamanın kullanımı sırasında aşağıdaki kişisel bilgileri toplayabilir:
+
+a. Adınız ve soyadınız
+b. Mail adresiniz
+c. Cihazınızın kimliği
+d. Diğer kişisel bilgiler (isteğe bağlı)
+
+2. Kişisel Bilgilerin Kullanımı
+Kişisel bilgiler, Sirüs uygulamasının aşağıdaki amaçlar için kullanılabilir:
+
+a. Kullanıcıların kayıt işlemlerini yönetmek.
+b. Kullanıcıların yarışmalara katılmalarını sağlamak.
+c. Kullanıcıların ödüller kazanmalarını sağlamak.
+d. Kullanıcıların yarışma sonuçları ve ödüllerini takip etmelerini sağlamak.
+e. Kullanıcıların müşteri destek hizmeti alabilmelerini sağlamak.
+f. Kullanıcıların uygulama içi mağazadan ürünler satın almalarını sağlamak.
+g. İlgili yasal düzenlemelere uymak ve uygulanabilir yasal gereksinimlere yanıt vermek.
+
+3. Kişisel Bilgilerin Paylaşımı
+Sirüs, kullanıcıların kişisel bilgilerini üçüncü taraflarla paylaşmaz, satmaz veya kiralamaz. Ancak, kullanıcıların izni olmadan veya yasal bir zorunluluk olmadan kişisel bilgiler paylaşılmaz.
+
+4. Güvenlik
+Sirüs, kullanıcıların kişisel bilgilerini korumak için endüstri standardı güvenlik önlemleri alır. Bununla birlikte, hiçbir veri iletim veya depolama yöntemi tamamen güvenli değildir ve herhangi bir bilgiyi iletim sırasında veya depolama sırasında garanti etmez.
+
+5. Çocukların Gizliliği
+Sirüs, 13 yaşın altındaki çocuklardan bilgi toplamaz veya onlara hizmet sunmaz. Eğer 13 yaşın altındaki bir çocuksanız, lütfen ebeveyn veya yasal velinizin izni olmadan bu uygulamayı kullanmayınız.
+
+6. Gizlilik Değişiklikleri
+Bu gizlilik sözleşmesi zaman zaman güncellenebilir. Değişiklikler kullanıcılara bildirilir ve son değişiklik tarihini yukarıda belirtir.
+
+Bu gizlilik sözleşmesini kabul ederek, Sirüs uygulamasının kişisel bilgilerinizi nasıl işleyeceğini ve kullanacağınızı kabul edersiniz.
+
+Bu gizlilik sözleşmesi ile ilgili sorularınız veya endişeleriniz varsa, lütfen aşağıdaki iletişim bilgilerini kullanarak bizimle iletişime geçin:
+
+yeslabapps@gmail.com
+
+Son güncelleme tarihi: 7/11/2023
+
+
+    </string>
+
+</resources>

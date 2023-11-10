@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_bg"
+            android:backgroundTint="@color/white"
+            android:padding="@dimen/_8sdp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:background="@color/black"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yarışma Kuralları"
+                android:id="@+id/titles"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_regular"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules"
+                android:background="@drawable/question_bg"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:id="@+id/desc"
+                android:textColor="@color/black"
+                android:lineHeight="@dimen/_18sdp"
+                android:fontFamily="@font/montserrat_regular"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

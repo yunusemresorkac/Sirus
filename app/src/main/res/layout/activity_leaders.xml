@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LeadersActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appBlue"
+
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liderler"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        tools:listitem="@layout/leader_item"
+        android:id="@+id/recyclerView"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leadersInfoText"
+        android:text="@string/hen_z_bir_s_ralama_olu_mad"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_5sdp"
+        android:visibility="gone"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+
+
+
+</RelativeLayout>
