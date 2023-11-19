@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sirüs</string>
+    <string name="app_name">Prizma</string>
     <string name="ifremi_unuttum">Şifremi Unuttum</string>
     <string name="ifre">Şifre</string>
     <string name="email">Email</string>
@@ -33,7 +33,8 @@
     <string name="rules">• Her yeni teste girmek için 1 adet bilet gereklidir. \n• Bilet satın alabilir ya da haftalık ödülle elde edebilirsiniz.
     \n• Her bir soru için verilen süre 15 saniyedir. \n• Yarışma esnasında test ekranını kapatmanız halinde biletiniz boşa gidecektir.
     \n• Testi herhangi bir haksız yoldan tamamladığınızın tespit edilmesi halinde ödülünüz geçersiz sayılacaktır.
-    \n• Testte toplam 7 adet soru vardır. \n• Tüm soruları doğru cevaplamanız halinde bakiyeniz 1 artacaktır. \n• Mağazadan bakiyenizin yettiği ödülleri alabilmektesiniz.</string>
+    \n• Testte toplam 7 adet soru vardır. \n• Tüm soruları doğru cevaplamanız halinde bakiyeniz 1 artacaktır. \n• Mağazadan bakiyenizin yettiği ödülleri alabilmektesiniz.
+    \n Bol şans dileriz.</string>
     <string name="testi_ba_latarak_oyun_kurallar_n_kabul_etmi_olursunuz_kurallar_g_rmek_i_in_t_klay_n">Testi başlatarak oyun kurallarını kabul etmiş olursunuz. Kuralları görmek için tıklayın.</string>
     <string name="d_ller">Ödüller</string>
     <string name="sipari_ler">Siparişler</string>
@@ -42,10 +43,10 @@
     <string name="privacy">
          Gizlilik Sözleşmesi
 
-Bu gizlilik sözleşmesi , Sirüs uygulamasını kullanırken kullanıcılarımızın kişisel bilgilerinin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır. Lütfen bu sözleşmeyi dikkatlice okuyun.
+Bu gizlilik sözleşmesi , Prizma uygulamasını kullanırken kullanıcılarımızın kişisel bilgilerinin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır. Lütfen bu sözleşmeyi dikkatlice okuyun.
 
 1. Kişisel Bilgilerin Toplanması
-Sirüs, uygulamanın kullanımı sırasında aşağıdaki kişisel bilgileri toplayabilir:
+Prizma, uygulamanın kullanımı sırasında aşağıdaki kişisel bilgileri toplayabilir:
 
 a. Adınız ve soyadınız
 b. Mail adresiniz
@@ -53,7 +54,7 @@ c. Cihazınızın kimliği
 d. Diğer kişisel bilgiler (isteğe bağlı)
 
 2. Kişisel Bilgilerin Kullanımı
-Kişisel bilgiler, Sirüs uygulamasının aşağıdaki amaçlar için kullanılabilir:
+Kişisel bilgiler, Prizma uygulamasının aşağıdaki amaçlar için kullanılabilir:
 
 a. Kullanıcıların kayıt işlemlerini yönetmek.
 b. Kullanıcıların yarışmalara katılmalarını sağlamak.
@@ -64,18 +65,18 @@ f. Kullanıcıların uygulama içi mağazadan ürünler satın almalarını sağ
 g. İlgili yasal düzenlemelere uymak ve uygulanabilir yasal gereksinimlere yanıt vermek.
 
 3. Kişisel Bilgilerin Paylaşımı
-Sirüs, kullanıcıların kişisel bilgilerini üçüncü taraflarla paylaşmaz, satmaz veya kiralamaz. Ancak, kullanıcıların izni olmadan veya yasal bir zorunluluk olmadan kişisel bilgiler paylaşılmaz.
+Prizma, kullanıcıların kişisel bilgilerini üçüncü taraflarla paylaşmaz, satmaz veya kiralamaz. Ancak, kullanıcıların izni olmadan veya yasal bir zorunluluk olmadan kişisel bilgiler paylaşılmaz.
 
 4. Güvenlik
-Sirüs, kullanıcıların kişisel bilgilerini korumak için endüstri standardı güvenlik önlemleri alır. Bununla birlikte, hiçbir veri iletim veya depolama yöntemi tamamen güvenli değildir ve herhangi bir bilgiyi iletim sırasında veya depolama sırasında garanti etmez.
+Prizma, kullanıcıların kişisel bilgilerini korumak için endüstri standardı güvenlik önlemleri alır. Bununla birlikte, hiçbir veri iletim veya depolama yöntemi tamamen güvenli değildir ve herhangi bir bilgiyi iletim sırasında veya depolama sırasında garanti etmez.
 
 5. Çocukların Gizliliği
-Sirüs, 13 yaşın altındaki çocuklardan bilgi toplamaz veya onlara hizmet sunmaz. Eğer 13 yaşın altındaki bir çocuksanız, lütfen ebeveyn veya yasal velinizin izni olmadan bu uygulamayı kullanmayınız.
+Prizma, 13 yaşın altındaki çocuklardan bilgi toplamaz veya onlara hizmet sunmaz. Eğer 13 yaşın altındaki bir çocuksanız, lütfen ebeveyn veya yasal velinizin izni olmadan bu uygulamayı kullanmayınız.
 
 6. Gizlilik Değişiklikleri
-Bu gizlilik sözleşmesi zaman zaman güncellenebilir. Değişiklikler kullanıcılara bildirilir ve son değişiklik tarihini yukarıda belirtir.
+Bu gizlilik sözleşmesi zaman zaman güncellenebilir. Değişiklikler kullanıcılara bildirilir ve son değişiklik tarihini belirtir.
 
-Bu gizlilik sözleşmesini kabul ederek, Sirüs uygulamasının kişisel bilgilerinizi nasıl işleyeceğini ve kullanacağınızı kabul edersiniz.
+Bu gizlilik sözleşmesini kabul ederek, Prizma uygulamasının kişisel bilgilerinizi nasıl işleyeceğini ve kullanacağınızı kabul edersiniz.
 
 Bu gizlilik sözleşmesi ile ilgili sorularınız veya endişeleriniz varsa, lütfen aşağıdaki iletişim bilgilerini kullanarak bizimle iletişime geçin:
 

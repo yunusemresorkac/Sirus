@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center"
-            android:background="@drawable/login_bg"
+            android:background="@drawable/card_bg2"
             android:padding="@dimen/_4sdp">
 
             <ImageView

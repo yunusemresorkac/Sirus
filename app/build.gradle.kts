@@ -7,11 +7,11 @@ plugins {
 
 
 android {
-    namespace = "com.yeslab.sirus"
+    namespace = "com.prizma.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.yeslab.sirus"
+        applicationId = "com.prizma.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

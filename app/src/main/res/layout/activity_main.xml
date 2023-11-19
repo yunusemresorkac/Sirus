@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A54D4D"
+    android:background="@drawable/login_bg"
     tools:context=".activities.MainActivity">
 
 
@@ -13,10 +13,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_150sdp"
-        android:src="@drawable/trans_logo"
+        android:src="@drawable/prizma_logos_black"
         android:id="@+id/logo"
         android:layout_gravity="center"
-        app:tint="@color/white" />
+       />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -50,12 +50,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
                     android:background="@drawable/rect_border"
-                    android:backgroundTint="@color/white"
                     android:fontFamily="@font/montserrat"
                     android:foreground="?selectableItemBackground"
                     android:padding="@dimen/_7sdp"
                     android:text="@string/giri_yap"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -66,13 +65,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_30sdp"
                     android:background="@drawable/rect_border"
-                    android:backgroundTint="@color/white"
+                    android:backgroundTint="@color/black"
                     android:fontFamily="@font/montserrat"
                     android:foreground="?selectableItemBackground"
                     android:padding="@dimen/_7sdp"
                     android:text="@string/kaydol"
 
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,7 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardUseCompatPadding="true"
-                app:cardBackgroundColor="#5C4F4F"
+                app:cardBackgroundColor="@color/primary_dark"
                 android:layout_margin="@dimen/_10sdp"
                 app:cardCornerRadius="@dimen/_8sdp">
 
@@ -165,7 +164,6 @@
                         android:fontFamily="@font/montserrat"
                         android:text="@string/ifremi_unuttum"
                         android:textColor="@color/white"
-                        android:textSize="18sp"
                         android:textStyle="bold" />
 
 
@@ -190,7 +188,6 @@
                         android:id="@+id/emailRegister"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_8sdp"
                         android:background="@drawable/rect_border"
                         android:backgroundTint="@color/white"
                         android:fontFamily="@font/montserrat"
@@ -272,7 +269,6 @@
                         android:fontFamily="@font/montserrat"
                         android:text="@string/gizlilik_s_zle_mesi"
                         android:textColor="@color/white"
-                        android:textSize="18sp"
                         android:textStyle="bold" />
 
 

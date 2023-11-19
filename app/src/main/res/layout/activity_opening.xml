@@ -11,9 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_250sdp"
         android:layout_centerInParent="true"
-        app:layout_anchorGravity="top|center"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="quiz_anim.json"
+        app:lottie_fileName="loading_anim.json"
         app:lottie_loop="true" />
 
 

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activities.BuyTicketActivity">
+    android:background="@drawable/shop_bg"
+    tools:context="com.prizma.app.activities.BuyTicketActivity">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -30,7 +31,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_8sdp"
         android:layout_marginTop="@dimen/_10sdp"
         android:layout_marginStart="@dimen/_5sdp"
         android:layout_marginEnd="@dimen/_5sdp"
@@ -79,7 +80,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="₺10"
+                    android:text=""
                     android:textColor="@color/black"
                     android:layout_marginEnd="@dimen/_10sdp"
                     android:layout_alignParentEnd="true"
@@ -130,7 +131,7 @@
                 android:text="@string/sat_n_al"
                 android:fontFamily="@font/montserrat"
                 android:layout_margin="@dimen/_10sdp"
-                app:backgroundTint="@color/green_800"/>
+                app:backgroundTint="@color/appGreen"/>
 
 
         </LinearLayout>

@@ -49,22 +49,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="20"
+            android:text="15"
             android:layout_centerInParent="true"
-            android:fontFamily="@font/montserrat"
+            android:fontFamily="@font/montserrat_regular"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 
         <com.github.guilhe.circularprogressview.CircularProgressView
             android:id="@+id/timeProgressBar"
-            android:layout_width="@dimen/_90sdp"
-            android:layout_height="@dimen/_90sdp"
+            android:layout_width="@dimen/_110sdp"
+
+            android:layout_height="@dimen/_110sdp"
             android:layout_centerInParent="true"
-            app:max="16"
+            app:max="15"
             app:progress="0"
             app:progressBarColor="@color/appBlue"
-            app:progressBarThickness="@dimen/_2sdp"
+            app:progressBarThickness="@dimen/_3sdp"
             app:progressThumb="true"
             app:shadow="false" />
 
@@ -74,6 +75,7 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/timeLay"
         android:layout_centerInParent="true">
 
         <LinearLayout
@@ -95,8 +97,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_margin="@dimen/_5sdp"
 
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
                     android:layout_toStartOf="@id/lira"
                     android:progress="0"
                     android:progressBackgroundTint="@color/black"

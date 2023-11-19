@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "198931813760",
-    "project_id": "sirus-cd39b",
-    "storage_bucket": "sirus-cd39b.appspot.com"
+    "project_number": "786930074213",
+    "project_id": "prizma-25a5f",
+    "storage_bucket": "prizma-25a5f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:198931813760:android:431354f2dfe2d4b72f9d65",
+        "mobilesdk_app_id": "1:786930074213:android:6b761a2e62dbce198f7c8c",
         "android_client_info": {
-          "package_name": "com.yeslab.sirus"
+          "package_name": "com.prizma.app"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCIt3A-NeDt4heEKz5JC0qway40S1P16eM"
+          "current_key": "AIzaSyDMiPw0Bkk40lU_YMer8FPzh8c-P-RhlW4"
         }
       ],
       "services": {

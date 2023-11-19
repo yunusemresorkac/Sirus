@@ -31,7 +31,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/montserrat_regular"
-                    android:text=""
+                    android:text="Merhaba"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -119,7 +119,7 @@
                                 android:layout_height="@dimen/_24sdp"
                                 android:src="@drawable/wallet_svgrepo_com__1_"
                                 android:layout_gravity="center"
-                                app:tint="@color/white" />
+                                />
 
 
                             <TextView
@@ -190,7 +190,7 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="@color/appGreen"
+                                android:background="@color/white"
                                 android:orientation="vertical"
                                 android:padding="@dimen/_8sdp">
 
@@ -198,7 +198,7 @@
                                 <ImageView
                                     android:layout_width="@dimen/_70sdp"
                                     android:layout_height="@dimen/_70sdp"
-                                    android:src="@drawable/diamond_svgrepo_com"
+                                    android:src="@drawable/cup_svgrepo_com"
                                     android:layout_gravity="center"
                                     />
 
@@ -206,12 +206,12 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/montserrat_regular"
                                     android:layout_gravity="center"
                                     android:text="@string/haftal_k_d_l"
                                     android:id="@+id/weeklyRewardStatusText"
                                     android:gravity="center"
-                                    android:textColor="@color/white"
+                                    android:textColor="@color/black"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -234,7 +234,7 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="@color/appBlue"
+                                android:background="@color/white"
                                 android:orientation="vertical"
                                 android:padding="@dimen/_8sdp">
 
@@ -242,7 +242,7 @@
                                 <ImageView
                                     android:layout_width="@dimen/_70sdp"
                                     android:layout_height="@dimen/_70sdp"
-                                    android:src="@drawable/order_food_svgrepo_com"
+                                    android:src="@drawable/bag_svgrepo_com"
                                     android:layout_gravity="center"
                                     />
 
@@ -250,11 +250,11 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:fontFamily="@font/montserrat"
+                                    android:fontFamily="@font/montserrat_regular"
                                     android:layout_gravity="center"
                                     android:text="@string/sipari_ler"
                                     android:gravity="center"
-                                    android:textColor="@color/white"
+                                    android:textColor="@color/black"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -272,6 +272,11 @@
 
 
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/black"/>
 
 
                 <LinearLayout
@@ -294,7 +299,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appBlue"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -310,11 +315,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_gravity="center"
                                 android:text="@string/yar_maya_ba_la"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -339,7 +344,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appGreen"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -347,7 +352,7 @@
                             <ImageView
                                 android:layout_width="@dimen/_70sdp"
                                 android:layout_height="@dimen/_70sdp"
-                                android:src="@drawable/gift_svgrepo_com__2_"
+                                android:src="@drawable/shop_svgrepo_com__2_"
                                 android:layout_gravity="center"
 
                                 />
@@ -357,10 +362,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:text="@string/mevcut_d_ller"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -372,6 +377,14 @@
 
 
                 </LinearLayout>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/black"/>
 
 
 
@@ -393,7 +406,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appGreen"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -411,10 +424,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:text="@string/bilet_sat_n_al"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -439,7 +452,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appBlue"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -447,7 +460,7 @@
                             <ImageView
                                 android:layout_width="@dimen/_70sdp"
                                 android:layout_height="@dimen/_70sdp"
-                                android:src="@drawable/leaderboard_star_svgrepo_com"
+                                android:src="@drawable/medal_svgrepo_com"
                                 android:layout_gravity="center"
                                 />
 
@@ -455,11 +468,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_gravity="center"
                                 android:text="@string/liderlik_tablosu"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -473,6 +486,13 @@
 
                 </LinearLayout>
 
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/black"/>
 
 
                 <LinearLayout
@@ -493,7 +513,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appBlue"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -509,11 +529,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_gravity="center"
                                 android:text="@string/statistiklerim"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -537,7 +557,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appGreen"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -555,10 +575,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:text="Paylaş"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -572,6 +592,13 @@
 
                 </LinearLayout>
 
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/black"/>
 
 
 
@@ -593,7 +620,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@color/appGreen"
+                            android:background="@color/white"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -609,11 +636,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_gravity="center"
                                 android:text="Destek"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -637,7 +664,6 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/incorrect_button"
                             android:orientation="vertical"
                             android:padding="@dimen/_8sdp">
 
@@ -655,10 +681,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:fontFamily="@font/montserrat"
+                                android:fontFamily="@font/montserrat_regular"
                                 android:text="@string/oturumu_kapat"
                                 android:gravity="center"
-                                android:textColor="@color/white"
+                                android:textColor="@color/black"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 

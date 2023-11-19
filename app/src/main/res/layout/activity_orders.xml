@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/shop_bg"
     android:orientation="vertical"
     tools:context=".activities.OrdersActivity">
 
@@ -11,7 +12,6 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/appBlue"
 
         android:id="@+id/toolbar">
 
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/sipari_ler"
             android:layout_gravity="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:fontFamily="@font/montserrat_regular"
             android:textSize="18sp"
             android:textStyle="bold"/>
